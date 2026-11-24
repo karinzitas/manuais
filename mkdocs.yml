@@ -2,6 +2,7 @@ site_name: Manuais Sumoi
 
 theme:
   name: material
+  logo: imagens/ceres.png
   features:
     - navigation.sections
     - navigation.expand
