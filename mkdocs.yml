@@ -32,3 +32,5 @@ nav:
     - Funcionalidades básicas: mitra/funcionalidades.md
   - Projeto Caixa Online:
     - Caixa online: proj_caixa/caixa_online.md
+  - Projeto Risco de Liquidez:
+    - Recebimentos: risco_liquidez/recebimentos.md
