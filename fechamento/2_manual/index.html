@@ -1,0 +1,1522 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../1_checklist/">
+      
+      
+        <link rel="next" href="../3_problemas/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.8.2">
+    
+    
+      
+        <title>Passo a passo - Manuais Sumoi</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.57a0d79d.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Figtree:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Figtree";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#liberacao-de-dados-pelo-custodiante" class="md-skip">
+          Pular para conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../.." title="Manuais Sumoi" class="md-header__button md-logo" aria-label="Manuais Sumoi" data-md-component="logo">
+      
+  <img src="../../imagens/ceres.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Manuais Sumoi
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Passo a passo
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando busca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Manuais Sumoi" class="md-nav__button md-logo" aria-label="Manuais Sumoi" data-md-component="logo">
+      
+  <img src="../../imagens/ceres.png" alt="logo">
+
+    </a>
+    Manuais Sumoi
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Início
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../mkdocs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Intro ao MkDocs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fechamento D-2
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Fechamento D-2
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../0_index_fechamento/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Início
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../1_checklist/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Checklist
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Passo a passo
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Passo a passo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#obter-as-informacoes-do-custodiante" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Obter as informações do custodiante
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Obter as informações do custodiante">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#carteira-diaria" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Carteira diária
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#demonstrativo-de-caixa" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Demonstrativo de Caixa
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Demonstrativo de Caixa">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#xml-anbima" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        XML Anbima
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#download-dos-relatorios" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Download dos relatórios
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#salvar-os-arquivos-nos-diretorios-do-mitra" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Salvar os arquivos nos diretórios do Mitra
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Salvar os arquivos nos diretórios do Mitra">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#obter-cotas-fii" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Obter cotas FII
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#etapas-do-mitra" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Etapas do Mitra
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Etapas do Mitra">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#integrar-as-boletas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Integrar as boletas
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#replicar-os-dados" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Replicar os dados
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#integrar-os-arquivos-xml-na-base-de-dados-do-mitra" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Integrar os arquivos XML na base de dados do Mitra
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#calcular-as-posicoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Calcular as posições
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#conferir-a-conciliacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Conferir a conciliação
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gerar-e-enviar-os-dados-contabeis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gerar e enviar os dados contábeis
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#disponibilizar-o-saldo-de-caixa-para-a-contabilidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Disponibilizar o saldo de caixa para a Contabilidade
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conciliar-os-fundos-exclusivos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Conciliar os fundos exclusivos
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Conciliar os fundos exclusivos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#eros" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Eros
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#agro" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Agro
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#comunicar-no-chat-d-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Comunicar no chat D-2
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3_problemas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Resolução de problemas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../4_despesas_financeiras/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Despesas financeiras
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../5_fechamento_mensal/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fechamento mensal
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mitra
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Mitra
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../mitra/funcionalidades/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Funcionalidades básicas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Projeto Caixa Online
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Projeto Caixa Online
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../proj_caixa/caixa_online/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Caixa online
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Projeto Risco de Liquidez
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Projeto Risco de Liquidez
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../risco_liquidez/recebimentos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Recebimentos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#obter-as-informacoes-do-custodiante" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Obter as informações do custodiante
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Obter as informações do custodiante">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#carteira-diaria" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Carteira diária
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#demonstrativo-de-caixa" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Demonstrativo de Caixa
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Demonstrativo de Caixa">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#xml-anbima" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        XML Anbima
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#download-dos-relatorios" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Download dos relatórios
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#salvar-os-arquivos-nos-diretorios-do-mitra" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Salvar os arquivos nos diretórios do Mitra
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Salvar os arquivos nos diretórios do Mitra">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#obter-cotas-fii" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Obter cotas FII
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#etapas-do-mitra" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Etapas do Mitra
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Etapas do Mitra">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#integrar-as-boletas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Integrar as boletas
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#replicar-os-dados" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Replicar os dados
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#integrar-os-arquivos-xml-na-base-de-dados-do-mitra" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Integrar os arquivos XML na base de dados do Mitra
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#calcular-as-posicoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Calcular as posições
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#conferir-a-conciliacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Conferir a conciliação
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gerar-e-enviar-os-dados-contabeis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gerar e enviar os dados contábeis
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#disponibilizar-o-saldo-de-caixa-para-a-contabilidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Disponibilizar o saldo de caixa para a Contabilidade
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conciliar-os-fundos-exclusivos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Conciliar os fundos exclusivos
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Conciliar os fundos exclusivos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#eros" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Eros
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#agro" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Agro
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#comunicar-no-chat-d-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Comunicar no chat D-2
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="liberacao-de-dados-pelo-custodiante"><strong>Liberação de dados pelo custodiante</strong></h1>
+<p>A rotina de fechamento do D-2 se inicia com o e-mail de aviso da liberação das informações pelo custodiante, cujo assunto é "LIBERAÇÃO CERES - DATA", que faz referência à data disponibilizada dessas informações. A partir dessa sinalização, inicia-se a etapa de download dos arquivos das carteiras diárias, dos demonstrativos de caixa e dos arquivos <code>.xml</code> dos planos de benefícios e dos fundos da Ceres, no <a href="https://bc2.custodia.bradesco/calilogin/login.jsf?lang=1">site do Bradesco</a>.</p>
+<p>Todos os relatórios são obtidos da aba <strong>Custódia e Controladoria de Ativos</strong> e requerem a escolha de um grupo de carteiras. Caso ainda não exista um grupo de carteiras configurado em seu usuário, acesse Relatórios &gt; Cadastro de Grupo de Carteiras. Clique em Novo, e depois em "Selecionar Todas as Carteiras/Fundos" e, por fim, defina um nome para o grupo.</p>
+<p><img alt="grupo_carteiras" src="../imagens/grupo_carteiras.png" /></p>
+<h2 id="obter-as-informacoes-do-custodiante"><strong>Obter as informações do custodiante</strong></h2>
+<p>Para todos os arquivos a serem baixados, o Grupo de Carteiras será composto por <strong>todas</strong> as carteiras e fundos da Ceres, conforme criado acima. Em cada etapa, para selecionar o grupo desejado, clique no botão de lupa e, na janela que abrir, em Pesquisar para visualizar os grupos de carteira criados e selecionar o desejado.</p>
+<h3 id="carteira-diaria"><strong>Carteira diária</strong></h3>
+<p>Acessada em Custódia e Controladoria de Ativos &gt; Relatórios &gt; Posição &gt; Carteira Diária. Marque apenas a opção XLS, sendo que a Data Inicial é referente ao dia de conciliação. O download dessas carteiras deve ser feito individualmente, para cada dia que foi liberado pelo custodiante.</p>
+<p><img alt="carteira_diaria" src="../imagens/carteira_diaria.png" /></p>
+<h2 id="demonstrativo-de-caixa"><strong>Demonstrativo de Caixa</strong></h2>
+<p>Acessado em Custódia e Controladoria de Ativos &gt; Relatórios &gt; Movimentação &gt; Demonstrativo de Caixa. Marque apenas a opção XLS, sendo que a Data Inicial é o primeiro dia do mês em exercício e a Data Final é o último dia de liberação. Para esses relatórios, não há necessidade de gerar o relatório individual.</p>
+<p><img alt="demonstrativo_caixa" src="../imagens/demonstrativo_caixa.png" /></p>
+<h3 id="xml-anbima"><strong>XML Anbima</strong></h3>
+<p>Acessado em Custódia e Controladoria de Ativos &gt; Relatórios &gt; XML Anbima. A Data de Posição é referente ao dia de conciliação. O download desses arquivos deve ser feito individualmente, para cada dia que foi liberado pelo custodiante.</p>
+<p><img alt="xml" src="../imagens/xml.png" /></p>
+<h3 id="download-dos-relatorios"><strong>Download dos relatórios</strong></h3>
+<p>Os relatórios gerados são obtidos em Custódia e Controladoria de Ativos &gt; Relatórios &gt; Extração de Arquivos (Book / Grupo de Carteiras) &gt; Protocolo de Book e Grupo de Carteiras &gt; Consultar. Observe o número do protocolo para saber qual arquivo é referente à carteira diária, ao demonstrativo de caixa e ao XML Anbima: a numeração segue a ordem em que os relatórios foram gerados.</p>
+<h2 id="salvar-os-arquivos-nos-diretorios-do-mitra"><strong>Salvar os arquivos nos diretórios do Mitra</strong></h2>
+<p>Acesse a VPN do Mitra e salve os relatórios gerados em suas respectivas pastas, cujos diretórios estão parametrizados e são acessados pelo Mitra para obter as informações necessárias (pelos arquivos XML, enquanto as carteiras diárias e demonstrativos de caixa são salvos para referência gerencial). É preciso criar uma pasta para cada dia de conciliação, seguindo o padrão já existente:</p>
+<ul>
+<li><strong>Carteiras diárias:</strong> <code>D:/LUZ Soluções Financeiras/ARQUIVOS INTEGRAÇÃO/CARTEIRA DIARIA</code> - criar uma pasta para cada dia (padrão DDMM)</li>
+<li><strong>Demonstrativos de caixa:</strong> <code>D:/LUZ Soluções Financeiras/ARQUIVOS INTEGRAÇÃO/CARTEIRA DIARIA</code> - criar uma pasta com data referente à data final escolhida para a geração deste relatório (padrão D.CAIXA DD MÊS)</li>
+<li><strong>XML Anbima:</strong> <code>D:/LUZ Soluções Financeiras/ARQUIVOS INTEGRAÇÃO/FUNDOS RECON</code></li>
+</ul>
+<p>No caso dos arquivos XML, salve o arquivo <code>zip</code> na pasta do dia de conciliação, extraia todos os arquivos, copie todos os XML <strong>com exceção</strong> do arquivo referente a <strong>CERES CONSOLIDADA</strong> e cole os arquivos na pasta FUNDOS RECON.</p>
+<p>Os arquivos <code>.xml</code> que estiverem presentes nesta pasta serão considerados na etapa de integração do Mitra (quando o sistema lê os arquivos e obtém as informações do XML), por isso é importante ter cuidado com quais arquivos permanecem nessa pasta. Em caso de integração duplicada para o mesmo dia, consulte a aba de <a href="../3_problemas/">Resolução de problemas</a>.</p>
+<h3 id="obter-cotas-fii"><strong>Obter cotas FII</strong></h3>
+<p>As cotas diárias do FII RB CAPITAL DESENV RESIDENCIAL II são calculadas à parte e incluídas manualmente pelo Mitra Web:</p>
+<ol>
+<li>Copie todos os XML referentes aos <strong>planos de benefícios</strong> da pasta Fundos Recon para a pasta <code>D:/LUZ Soluções Financeiras/ARQUIVOS INTEGRAÇÃO/PU/PU PLANOS/XMLS</code>. Caso existam arquivos XML na pasta, exclua-os.</li>
+<li>Na pasta PU PLANOS, execute o atalho <code>IMPORTACAO_PLANOS</code>, que gera um arquivo excel com as cotas do FII.</li>
+<li>Copie as células com informações, acesse o <a href="https://mitraweb.luz-ef.com/">Mitra Web</a>, cole os dados, clique em Validar e em Salvar.</li>
+<li>Aguarde o e-mail de confirmação da inclusão das cotas.</li>
+</ol>
+<blockquote>
+<p><strong>ATENÇÃO:</strong> Caso ocorra o reprocessamento dos arquivos liberados, basta incluir a cota recalculada para a mesma data, pois o Mitra sobrescreve com a cota registrada mais recente para cada dia.</p>
+</blockquote>
+<h2 id="etapas-do-mitra"><strong>Etapas do Mitra</strong></h2>
+<h3 id="integrar-as-boletas">Integrar as boletas</h3>
+<p>A integração das boletas que entram por meio dos lançamentos no módulo de front do Mitra deve ser feita para que as boletas lançadas e aprovadas sejam integradas no módulo de MiddleOffice, de forma que essas informações também passem a alimentar o banco de dados do sistema, que será utilizado para os cálculos de fechamento.</p>
+<ol>
+<li>Iniciar o <strong>Mitra Produção</strong>.</li>
+<li>Na aba Front, selecionar Integrações &gt; Integrar Boletas Front to Back.</li>
+<li>Antes de clicar em Integrar, aparecem "Boletas para integrar: x" e "Boletas integradas: -".</li>
+<li>Após clicar em Integrar, aparecem "Boletas para integrar: x" e "Boletas integradas: x".</li>
+<li>É necessário clicar em Integrar mais uma vez, para aparecer "Boletas para integrar: x" e "Boletas integradas: 0".</li>
+</ol>
+<p><img alt="boletas" src="../imagens/boletas.png" /></p>
+<h3 id="replicar-os-dados">Replicar os dados</h3>
+<p>O funcionamento interno do Mitra é dado pela captação de informações de diversas fontes de dados para uma base chamada <code>lef_series</code>. Após o tratamento desses dados, as informações passam a integrar uma base chamada <code>LEF Risco 2000</code>, que alimenta as bases dos clientes da Luz.</p>
+<p>A etapa de replicação de dados é equivalente a uma atualização dessa base consolidada, de forma a executar as rotinas com as informações mais atualizadas disponíveis. Essa etapa também é necessária para atualizar a base com quaisquer registros de cotas feitos pelo Mitra Web.</p>
+<p>Após receber o e-mail de confirmação de inserção dos dados no Mitra Web:</p>
+<ol>
+<li>No canto superior direito do Mitra, clicar no botão de Replicação de Dados (<img alt="botao" src="../imagens/botao_replicar.png" width="3%" />).</li>
+<li>Clique em Replicar Preços na janela que abrir.</li>
+</ol>
+<p><img alt="replicar" src="../imagens/replicar.png" /></p>
+<h3 id="integrar-os-arquivos-xml-na-base-de-dados-do-mitra">Integrar os arquivos XML na base de dados do Mitra</h3>
+<p>Nessa etapa, as informações fornecidas pelo custodiante são integradas para a base de dados do Mitra para a realização do batimento das posições entre o Mitra e o Bradesco.</p>
+<ol>
+<li>No canto superior direito, clique em Cadastros Gerais (<img alt="cadastros" src="../imagens/botao_cadastros_gerais.png" width="2%" />) &gt; Integrações &gt; Monitor Pipeline.</li>
+<li>Selecione o pipeline "Integração D-2" e clique em Calcular.</li>
+</ol>
+<p><img alt="cadastros_gerais" src="../imagens/integracoes.png" /></p>
+<p><img alt="integracao_d2" src="../imagens/integracao_d2.png" /></p>
+<h3 id="calcular-as-posicoes">Calcular as posições</h3>
+<ol>
+<li>Clique na aba de Cota e Resultado para expandir a lista de programas no botão <code>&gt;</code> na barra lateral esquerda.</li>
+<li>Selecione o programa <strong>[RECON] FUNDAÇÃO CERES</strong> clicando duas vezes.</li>
+<li>Na parte de programas selecionados, clique com o botão direito no programa &gt; Definições &gt; Apuração &gt; Geral para definir as datas de cálculo: Data final = dia de cálculo da conciliação e Data inicial = dia <strong>útil</strong> anterior à data final.</li>
+</ol>
+<blockquote>
+<p>Esse cálculo deve ser feito <strong>dia a dia</strong> para conferência e fechamento.</p>
+</blockquote>
+<p><img alt="selecionar_programa" src="../imagens/selecionar_programa.png" />
+<img alt="definicao_programa" src="../imagens/definicao_programa.png" /></p>
+<h3 id="conferir-a-conciliacao">Conferir a conciliação</h3>
+<ol>
+<li>Finalizado o cálculo, abrir o Book Preços Consolidado.</li>
+<li>Filtrar a coluna Produto, selecionando todos e retirando aqueles que são referentes a empréstimos, financiamentos, imóveis, PL e Caixa.</li>
+<li>Verificar nas colunas de Diferença se houve alguma divergência.</li>
+<li>Em seguida, selecionar apenas o produto Caixa e verificar se houve alguma divergência.</li>
+</ol>
+<blockquote>
+<p>Na coluna do Financeiro com os produtos selecionados, é normal dar uma diferença em torno de R$ 5 mil, devido à diferença de precificação das NTN-B e NTN-C entre as metodologias do custodiante e do Mitra.</p>
+<p>Em caso de divergências que não relacionadas a precificação de NTN-B, consultar a página de <a href="../3_problemas/">Resolução de problemas</a>.</p>
+</blockquote>
+<p><img alt="book_precos" src="../imagens/book_precos.png" /></p>
+<h3 id="gerar-e-enviar-os-dados-contabeis">Gerar e enviar os dados contábeis</h3>
+<p>Após conferir a conciliação e não observar diferenças entre o Mitra e o custodiante, ou identificar apenas diferenças mapeadas (como a precificação de títulos públicos, ou diferenças de centavos de caixa), é necessário gerar os dados contábeis para disponibilizá-los para a GCONT.</p>
+<ol>
+<li>Desselecionar o programa [RECON] FUNDAÇÃO CERES clicando duas vezes.</li>
+<li>Selecionar o programa <strong>[CONTÁBIL] FUNDAÇÃO CERES</strong>.</li>
+<li>Clicar com o botão direito no programa selecionado, como foi feito em [RECON] FUNDAÇÃO CERES &gt; Definições &gt; Apuração &gt; Geral e selecionar a Data final = data da última conciliação e Data inicial = último dia útil antes da primeira data a ser calculada. Por exemplo, para calcular dos dias 10/11/2026 a 13/11/2026, a data inicial será 09/11/2026.</li>
+<li>Após a finalização do cálculo, clicar em Salvar &gt; Travar Dados Contábeis</li>
+</ol>
+<p><img alt="travar" src="../imagens/travar_dados_contabeis.png" /></p>
+<blockquote>
+<p>Para exportar os dados para a contabilidade: Cadastros Gerais (<img alt="botao_cadastro" src="../imagens/botao_cadastros_gerais.png" width="2%" />) &gt; Integração &gt; Monitor Pipeline &gt; selecionar o pipeline <strong>Exportação Contábil</strong> &gt; Calcular</p>
+</blockquote>
+<p><img alt="exportar_cont" src="../imagens/exportar_cont.png" /></p>
+<h3 id="disponibilizar-o-saldo-de-caixa-para-a-contabilidade">Disponibilizar o saldo de caixa para a Contabilidade</h3>
+<p>Após realizar a conciliação, gerar os dados contábeis e exportar para a GCONT, também é necessário disponibilizar, no drive compartilhdo, o saldo de caixa dos planos.</p>
+<ol>
+<li>Abrir o <strong>Mitra Relatórios Produção</strong>.</li>
+<li>Fechar todas as planilhas excel que estiverem abertas.</li>
+<li>No diretório D:/LUZ Soluções Financeiras/ARQUIVOS INTEGRAÇÃO/SALDOS DE CAIXA, abrir a planilha <code>SALDO CAIXA CUSTÓDIA - MODELO.xlsx</code>.</li>
+<li>Selecionar a aba Mitra &gt; Gerar relatório &gt; na janela de navegação que abrir à direita, clicar em Gerar relatório novamente &gt; escolher as datas: Data inicial = primeiro dia do mês e Data final = último dia de conciliação &gt; Clicar em Ok.</li>
+<li>Será aberta outra planilha, que deve ser salva na mesma pasta seguindo o modelo <code>CAIXA_DD_MM_AAAA.xlsx</code>.</li>
+<li>Copiar a planilha para a pasta compartilhada com a contabilidade: <code>G:/Drives compartilhados/GECOR_GCONT/RELATORIO DE FECHAMENTO_GEMOI_MITRA</code>.</li>
+</ol>
+<p><img alt="saldo" src="../imagens/saldo_caixa.png" /></p>
+<h2 id="conciliar-os-fundos-exclusivos">Conciliar os fundos exclusivos</h2>
+<p>Junto com o fechamento diário, também fazemos a conciliação dos fundos exclusivos de gestão própria da Ceres: FIA Agrociência e FIM Eros.</p>
+<blockquote>
+<p>Cada fundo deve ser conciliado <strong>individualmente</strong>.</p>
+</blockquote>
+<ol>
+<li>Selecionar a carteira do fundo na barra lateral esquerda, dentro de FUNDOS EXCLUSIVOS, clicando duas vezes.</li>
+</ol>
+<p><img alt="fundos" src="../imagens/fundos.png" />
+2. Na barra de Definições, selecionar Data Posição = dia de conciliação e Data Início = dia útil anterior à data de conciliação, e calcular.</p>
+<p><img alt="definicoes_fundos" src="../imagens/definicoes_fundos.png" /></p>
+<h3 id="eros"><strong>Eros</strong></h3>
+<p>Ao fim do cálculo, abrir o Book Preços Consolidado. No caso desse fundo, é necessário fazer a Importação de preços, para que os preços e as cotas do fundo sejam atualizados para o padrão da Anbima no Mitra.</p>
+<blockquote>
+<p>Caso hajam diferenças de <strong>quantidade</strong>, buscar pela solução na página de <a href="../3_problemas/">Resolução de problemas</a>.</p>
+</blockquote>
+<p><img alt="eros" src="../imagens/eros.png" /></p>
+<h3 id="agro"><strong>Agro</strong></h3>
+<p>Para a conciliação do FIA Agrociência Ações, é necessário obter o arquivo IMBARQ06 do <a href="http://imercado.bmfbovespa.com.br/iMercadoConciliacao/home">site iMercado da B3</a> e fazer a integração no Mitra:</p>
+<ol>
+<li>Acessar o site e, após a autenticação por código enviado por e-mail, selecionar Participante: 585 e Categoria: FCAO.</li>
+<li>Na barra de navegação superior, selecionar Solicitações &gt; Download de arquivos &gt; Buscar e procurar os arquivos IMBARQ06 para baixar.</li>
+</ol>
+<p><img alt="imercado" src="../imagens/imercado.png" /></p>
+<p>O site usa uma janela móvel de informações, na qual os arquivos ficam disponíveis por oito dias. Conforme novos arquivos são acrescentados, os mais antigos são excluídos, de forma que é importante sempre acessar e fazer o download para evitar perder algum dia.</p>
+<blockquote>
+<p><strong>Importante:</strong> deve-se ter atenção para <strong>não subir os dados IMBARQ duplicados</strong>, pois a correção é complexa.</p>
+</blockquote>
+<p>Após fazer o download do arquivo:</p>
+<ol>
+<li>Salvar o arquivo na VPN do Mitra em <code>D:/LUZ Soluções Financeiras/ARQUIVOS INTEGRAÇÃO/IMBARQ</code>, de acordo com o ano e mês do arquivo.</li>
+<li>Pegar o arquivo <code>.txt</code> dentro do <code>.zip</code> e colar na pasta IMBARQ.</li>
+<li>Realizar a integração <strong>individualmente</strong>, mesmo que exista mais de um dia para conciliar: no Mitra, Cadastros Gerais (<img alt="botao" src="../imagens/botao_cadastros_gerais.png" width="2%" />) &gt; Integrações &gt; Monitor Pipeline &gt; selecionar o pipeline <strong>IMBARQ</strong> &gt; Calcular.</li>
+</ol>
+<blockquote>
+<p>É de costume deixar o <strong>último</strong> arquivo IMBARQ integrado na pasta IMBARQ, para facilitar o controle dos arquivos que já foram integrados no Mitra e evitar o erro de duplicidade das informações.</p>
+</blockquote>
+<p>A conciliação do FIA Agro segue os mesmos passos que a do Eros, com exceção da Importação de Preços. No caso do Agro, deve-se observar as diferenças geradas pelo BOVA11 e BOVV11, além do Caixa.</p>
+<blockquote>
+<p>Na ocasião de haver diferenças na <strong>quantidade</strong>, é possível que o arquivo IMBARQ da data calculada não tenha sido integrado ao Mitra ainda.</p>
+</blockquote>
+<h2 id="comunicar-no-chat-d-2">Comunicar no chat D-2</h2>
+<p>Ao concluir a rotina, é necessário comunicar no grupo de chat D-2 que os movimentos do dia conciliado foram exportados. A GCONT dará prosseguimento, então, às checagens das informações enviadas pelo sistema e pela GEFIN, realizando o respectivo batimento.</p>
+<p>Após a GCONT enviar a tela com o batimento das informações, caso haja alguma divergência superior às diferenças de centavos, será necessário fazer a devida verificação. Não havendo diferenças, a rotina de conciliação do dia está concluída.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.sections", "navigation.expand", "toc.follow"], "search": "../../assets/javascripts/workers/search.a7633da7.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "mais 1 nesta p\u00e1gina", "search.result.more.other": "# mais nesta p\u00e1gina", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.a5f9d56c.min.js"></script>
+      
+    
+  </body>
+</html>
