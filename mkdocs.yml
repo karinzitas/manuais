@@ -1,0 +1,34 @@
+site_name: Manuais Sumoi
+
+theme:
+  name: material
+  logo: imagens/ceres.png
+  features:
+    - navigation.sections
+    - navigation.expand
+    - toc.follow
+  language: pt-BR
+  font:
+    text: Figtree
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions: 
+  - attr_list
+  - md_in_html
+
+nav:
+  - Início: index.md
+  - Intro ao MkDocs: mkdocs.md
+  - Fechamento D-2:
+    - Início: fechamento/0_index_fechamento.md
+    - Checklist: fechamento/1_checklist.md
+    - Passo a passo: fechamento/2_manual.md
+    - Resolução de problemas: fechamento/3_problemas.md
+    - Despesas financeiras: fechamento/4_despesas_financeiras.md
+    - Fechamento mensal: fechamento/5_fechamento_mensal.md
+  - Mitra:
+    - Funcionalidades básicas: mitra/funcionalidades.md
+  - Projeto Caixa Online:
+    - Caixa online: proj_caixa/caixa_online.md
